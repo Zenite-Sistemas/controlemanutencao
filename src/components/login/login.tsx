@@ -42,26 +42,24 @@ export default function Login() {
         <form onSubmit={handleSubmit} className="space-y-4">
           {/* Usuário */}
           <div>
-            <label className="text-sm text-gray-600">Usuário</label>
             <input
               type="text"
-              placeholder="Informe seu login"
+              placeholder="Usuário"
               value={login}
               onChange={(e) => setLogin(e.target.value)}
-              className="w-full mt-1 px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full mt-1 px-3 py-2 placeholder-gray-400 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
           {/* Senha */}
           <div>
-            <label className="text-sm text-gray-600">Senha</label>
             <div className="relative mt-1">
               <input
                 type={showPassword ? 'text' : 'password'}
-                placeholder="Informe sua senha"
+                placeholder="Senha"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-3 py-2 placeholder-gray-400 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               <button
                 type="button"
