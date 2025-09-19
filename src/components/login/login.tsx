@@ -21,7 +21,7 @@ export default function Login() {
         {/* Logo */}
         <div className="flex justify-center mb-6">
           <Image
-            src="/logo-grupo.png" // coloque sua logo dentro da pasta /public
+            src="/logo-grupo.png" 
             alt="Logo Grupo DWG"
             width={150}
             height={50}
@@ -32,7 +32,7 @@ export default function Login() {
 
         {/* Texto de boas-vindas */}
         <h2 className="text-lg font-semibold text-gray-800 text-center mb-2">
-          Controle de Manutenções
+        Controle de Manutenção de Equipamentos
         </h2>
         <p className="text-sm text-gray-600 text-center mb-6">
           Preencha os campos com os seus dados para acessar o sistema.
